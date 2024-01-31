@@ -1,0 +1,21 @@
+/*******reset*******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.flasker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flasker img {
+  max-height: auto;
+  width: 200px;
+}
